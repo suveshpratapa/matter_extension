@@ -1,0 +1,6 @@
+{
+  "sdkRoot" : "/Users/supratap/silabs-stash/matter_extension/third_party/simplicity_sdk/",
+  "apackRoot" : "/Users/supratap/silabs-stash/matter_extension/third_party/simplicity_sdk/bluetooth_bgbuild",
+  "partOpn" : "efr32mg24b220f1536im48",
+  "boards" : "brd4002arevA07,brd4187crevA01"
+}

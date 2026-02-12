@@ -1,0 +1,10 @@
+{
+  "sdkRoot" : "/Users/supratap/silabs-stash/matter_extension/third_party/simplicity_sdk/",
+  "apackRoot" : "/Users/supratap/silabs-stash/matter_extension/slc/tools/zap",
+  "partOpn" : "efr32mg24b220f1536im48",
+  "zcl.matterZclJsonFile" : "/Users/supratap/silabs-stash/matter_extension/src/app/zap-templates/zcl/zcl.json",
+  "zcl.zigbeeZclJsonFile" : "/Users/supratap/silabs-stash/matter_extension/third_party/simplicity_sdk/zigbee/app/zcl/zcl-zap.json",
+  "boards" : "brd4002arevA07,brd4187crevA01",
+  "zcl.matterTemplateJsonFile" : "/Users/supratap/silabs-stash/matter_extension/src/app/zap-templates/app-templates.json",
+  "zcl.zigbeeTemplateJsonFile" : "/Users/supratap/silabs-stash/matter_extension/third_party/simplicity_sdk/zigbee/app/framework/gen-template/gen-templates.json"
+}

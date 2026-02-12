@@ -1,0 +1,47 @@
+{
+  "matter_sdk_paths": {
+    "source": [
+      "third_party/matter_sdk/examples/lighting-app/silabs/src/AppTask.cpp",
+      "third_party/matter_sdk/examples/lighting-app/silabs/src/LightingManager.cpp",
+      "third_party/matter_sdk/examples/platform/silabs/main.cpp",
+      "third_party/matter_sdk/examples/lighting-app/silabs/src/DataModelCallbacks.cpp"
+    ],
+    "include": [
+      "third_party/matter_sdk/examples/lighting-app/silabs/include/AppConfig.h",
+      "third_party/matter_sdk/examples/lighting-app/silabs/include/AppEvent.h",
+      "third_party/matter_sdk/examples/lighting-app/silabs/include/AppTask.h",
+      "third_party/matter_sdk/examples/lighting-app/silabs/include/CHIPProjectConfig.h",
+      "third_party/matter_sdk/examples/lighting-app/silabs/include/LightingManager.h"
+    ]
+  },
+  "customer_paths": {
+    "source": [
+      "ThreadRouterLightApp/src/AppTask.cpp",
+      "ThreadRouterLightApp/src/LightingManager.cpp",
+      "ThreadRouterLightApp/src/main.cpp",
+      "ThreadRouterLightApp/src/DataModelCallbacks.cpp"
+    ],
+    "include": [
+      "ThreadRouterLightApp/include/AppConfig.h",
+      "ThreadRouterLightApp/include/AppEvent.h",
+      "ThreadRouterLightApp/include/AppTask.h",
+      "ThreadRouterLightApp/include/CHIPProjectConfig.h",
+      "ThreadRouterLightApp/include/LightingManager.h"
+    ]
+  },
+  "backups_paths": {
+    "source": [
+      "ThreadRouterLightApp/.bak/original/src/AppTask.cpp",
+      "ThreadRouterLightApp/.bak/original/src/LightingManager.cpp",
+      "ThreadRouterLightApp/.bak/original/src/main.cpp",
+      "ThreadRouterLightApp/.bak/original/src/DataModelCallbacks.cpp"
+    ],
+    "include": [
+      "ThreadRouterLightApp/.bak/original/include/CHIPProjectConfig.h",
+      "ThreadRouterLightApp/.bak/original/include/AppConfig.h",
+      "ThreadRouterLightApp/.bak/original/include/AppEvent.h",
+      "ThreadRouterLightApp/.bak/original/include/AppTask.h",
+      "ThreadRouterLightApp/.bak/original/include/LightingManager.h"
+    ]
+  }
+}
