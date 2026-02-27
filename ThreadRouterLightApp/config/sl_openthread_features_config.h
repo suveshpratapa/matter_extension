@@ -237,7 +237,7 @@
 // </e>
 // <e>  MAC Filter
 #ifndef OPENTHREAD_CONFIG_MAC_FILTER_ENABLE
-#define OPENTHREAD_CONFIG_MAC_FILTER_ENABLE         0
+#define OPENTHREAD_CONFIG_MAC_FILTER_ENABLE         1
 #endif
 // </e>
 // <h> MLE Children

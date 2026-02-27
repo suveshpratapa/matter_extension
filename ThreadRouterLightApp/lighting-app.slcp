@@ -178,12 +178,6 @@ define:
   value: '4092'
 - name: SL_MATTER_LOG_LEVEL
   value: SL_MATTER_LOG_DETAIL
-- name: CHIP_PROGRESS_LOGGING
-  value: '1'
-- name: CHIP_DETAIL_LOGGING
-  value: '1'
-- name: CHIP_ERROR_LOGGING
-  value: '1'
 config_file:
 - path: config/common/lighting-thread-app.zap
   directory: common

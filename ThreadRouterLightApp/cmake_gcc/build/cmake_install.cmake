@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/Users/supratap/.silabs/slt/installs/conan/p/gcc-af360b79bab9e3/p/bin/arm-none-eabi-objdump")
+  set(CMAKE_OBJDUMP "/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-objdump")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

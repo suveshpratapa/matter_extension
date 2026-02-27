@@ -94,17 +94,13 @@ Debug logging requires changes to **two** configuration files:
 
 #### 5a. Edit `lighting-app.slcp` for Matter Logging
 
+**CRITICAL**: This slcp editing step has to be done before project creation above.
+
 Edit the file `ThreadRouterLightApp/lighting-app.slcp` to add Matter debug logging. If not already present, find the `define:` section (around line 169) and add these defines after the existing ones:
 
 ```yaml
 - name: SL_MATTER_LOG_LEVEL
   value: SL_MATTER_LOG_DETAIL
-- name: CHIP_PROGRESS_LOGGING
-  value: '1'
-- name: CHIP_DETAIL_LOGGING
-  value: '1'
-- name: CHIP_ERROR_LOGGING
-  value: '1'
 ```
 
 #### 5b. Edit `config/sl_openthread_features_config.h` for OpenThread Logging
