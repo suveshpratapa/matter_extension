@@ -152,6 +152,8 @@ OpenThread Logging (in `sl_openthread_features_config.h`):
 
 ### 6. Build with CMake
 
+Remove all the three occurances of the `--specs=nano.specs` from the `ThreadRouterLightApp/cmake_gcc/lighting-app.cmake` to build the app with full `newlib` support for the TimeSync feature.
+
 ```bash
 cd ThreadRouterLightApp/cmake_gcc
 source ../../slc/tools/.env
