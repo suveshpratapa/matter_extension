@@ -1,0 +1,4 @@
+/Users/supratap/silabs-stash/matter_extension/ThreadRouterLightApp2/cmake_gcc/build/CMakeFiles/slc.dir
+/Users/supratap/silabs-stash/matter_extension/ThreadRouterLightApp2/cmake_gcc/build/CMakeFiles/lighting-app.dir
+/Users/supratap/silabs-stash/matter_extension/ThreadRouterLightApp2/cmake_gcc/build/CMakeFiles/edit_cache.dir
+/Users/supratap/silabs-stash/matter_extension/ThreadRouterLightApp2/cmake_gcc/build/CMakeFiles/rebuild_cache.dir

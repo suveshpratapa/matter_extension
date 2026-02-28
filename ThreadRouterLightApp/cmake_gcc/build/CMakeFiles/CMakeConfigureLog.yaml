@@ -9,6 +9,10 @@ events:
     message: |
       The target system is: Generic -  - arm
       The host system is: Darwin - 25.3.0 - arm64
+...
+
+---
+events:
   -
     kind: "message-v1"
     backtrace:
@@ -135,8 +139,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/supratap/silabs-stash/matter_extension/ThreadRouterLightApp/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-2OmuQO"
-      binary: "/Users/supratap/silabs-stash/matter_extension/ThreadRouterLightApp/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-2OmuQO"
+      source: "/Users/supratap/silabs-stash/matter_extension/ThreadRouterLightApp/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-7j1gwb"
+      binary: "/Users/supratap/silabs-stash/matter_extension/ThreadRouterLightApp/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-7j1gwb"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -145,9 +149,9 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: /Users/supratap/silabs-stash/matter_extension/ThreadRouterLightApp/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-2OmuQO
+        Change Dir: /Users/supratap/silabs-stash/matter_extension/ThreadRouterLightApp/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-7j1gwb
         
-        Run Build Command(s):/Users/supratap/.silabs/slt/installs/conan/p/ninja48deaaf744f20/p/ninja -v cmTC_b4ef7 && [1/2] /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-gcc @CMakeFiles/cmTC_b4ef7.dir/Debug/CMakeCCompilerABI.c.obj.rsp -o CMakeFiles/cmTC_b4ef7.dir/Debug/CMakeCCompilerABI.c.obj -c /opt/homebrew/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        Run Build Command(s):/Users/supratap/.silabs/slt/installs/conan/p/ninja48deaaf744f20/p/ninja -v cmTC_2e408 && [1/2] /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-gcc @CMakeFiles/cmTC_2e408.dir/Debug/CMakeCCompilerABI.c.obj.rsp -o CMakeFiles/cmTC_2e408.dir/Debug/CMakeCCompilerABI.c.obj -c /opt/homebrew/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-gcc
         Target: arm-none-eabi
@@ -155,8 +159,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 
-        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_b4ef7.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_b4ef7.dir/Debug/'
-         /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet -v -iprefix /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../arm-none-eabi -D__USES_INITFINI__ -D CMAKE_INTDIR="Debug" /opt/homebrew/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b4ef7.dir/Debug/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -g -std=c17 -version -o /var/folders/4s/25shk8m10kgd1lz4j9_7hhgm0000gq/T//ccYsM72g.s
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_2e408.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_2e408.dir/Debug/'
+         /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet -v -iprefix /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../arm-none-eabi -D__USES_INITFINI__ -D CMAKE_INTDIR="Debug" /opt/homebrew/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_2e408.dir/Debug/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -g -std=c17 -version -o /var/folders/4s/25shk8m10kgd1lz4j9_7hhgm0000gq/T//ccgMc6LO.s
         GNU C17 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) version 14.2.1 20241119 (arm-none-eabi)
         	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -173,13 +177,13 @@ events:
          /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: 37d23b2e3347d18c1231e07805cbe085
-        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_b4ef7.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_b4ef7.dir/Debug/'
-         /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_b4ef7.dir/Debug/CMakeCCompilerABI.c.obj /var/folders/4s/25shk8m10kgd1lz4j9_7hhgm0000gq/T//ccYsM72g.s
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_2e408.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_2e408.dir/Debug/'
+         /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_2e408.dir/Debug/CMakeCCompilerABI.c.obj /var/folders/4s/25shk8m10kgd1lz4j9_7hhgm0000gq/T//ccgMc6LO.s
         GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 2.43.1.20241119
         COMPILER_PATH=/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../libexec/gcc/:/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/:/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_b4ef7.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_b4ef7.dir/Debug/CMakeCCompilerABI.c.'
-        [2/2] : && /opt/homebrew/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -f Debug/libcmTC_b4ef7.a && /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-ar qc Debug/libcmTC_b4ef7.a  @CMakeFiles/cmTC_b4ef7.Debug.rsp && /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-gcc-ranlib Debug/libcmTC_b4ef7.a && /opt/homebrew/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch Debug/libcmTC_b4ef7.a && :
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_2e408.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_2e408.dir/Debug/CMakeCCompilerABI.c.'
+        [2/2] : && /opt/homebrew/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -f Debug/libcmTC_2e408.a && /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-ar qc Debug/libcmTC_2e408.a  @CMakeFiles/cmTC_2e408.Debug.rsp && /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-gcc-ranlib Debug/libcmTC_2e408.a && /opt/homebrew/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch Debug/libcmTC_2e408.a && :
         
       exitCode: 0
   -
@@ -211,9 +215,9 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(arm-none-eabi-gcc|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: /Users/supratap/silabs-stash/matter_extension/ThreadRouterLightApp/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-2OmuQO]
+        ignore line: [Change Dir: /Users/supratap/silabs-stash/matter_extension/ThreadRouterLightApp/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-7j1gwb]
         ignore line: []
-        ignore line: [Run Build Command(s):/Users/supratap/.silabs/slt/installs/conan/p/ninja48deaaf744f20/p/ninja -v cmTC_b4ef7 && [1/2] /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-gcc @CMakeFiles/cmTC_b4ef7.dir/Debug/CMakeCCompilerABI.c.obj.rsp -o CMakeFiles/cmTC_b4ef7.dir/Debug/CMakeCCompilerABI.c.obj -c /opt/homebrew/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s):/Users/supratap/.silabs/slt/installs/conan/p/ninja48deaaf744f20/p/ninja -v cmTC_2e408 && [1/2] /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-gcc @CMakeFiles/cmTC_2e408.dir/Debug/CMakeCCompilerABI.c.obj.rsp -o CMakeFiles/cmTC_2e408.dir/Debug/CMakeCCompilerABI.c.obj -c /opt/homebrew/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-gcc]
         ignore line: [Target: arm-none-eabi]
@@ -221,8 +225,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_b4ef7.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_b4ef7.dir/Debug/']
-        ignore line: [ /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet -v -iprefix /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../arm-none-eabi -D__USES_INITFINI__ -D CMAKE_INTDIR="Debug" /opt/homebrew/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b4ef7.dir/Debug/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -g -std=c17 -version -o /var/folders/4s/25shk8m10kgd1lz4j9_7hhgm0000gq/T//ccYsM72g.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_2e408.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_2e408.dir/Debug/']
+        ignore line: [ /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet -v -iprefix /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../arm-none-eabi -D__USES_INITFINI__ -D CMAKE_INTDIR="Debug" /opt/homebrew/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_2e408.dir/Debug/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -g -std=c17 -version -o /var/folders/4s/25shk8m10kgd1lz4j9_7hhgm0000gq/T//ccgMc6LO.s]
         ignore line: [GNU C17 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) version 14.2.1 20241119 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -239,13 +243,13 @@ events:
         ignore line: [ /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 37d23b2e3347d18c1231e07805cbe085]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_b4ef7.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_b4ef7.dir/Debug/']
-        ignore line: [ /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_b4ef7.dir/Debug/CMakeCCompilerABI.c.obj /var/folders/4s/25shk8m10kgd1lz4j9_7hhgm0000gq/T//ccYsM72g.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_2e408.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_2e408.dir/Debug/']
+        ignore line: [ /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_2e408.dir/Debug/CMakeCCompilerABI.c.obj /var/folders/4s/25shk8m10kgd1lz4j9_7hhgm0000gq/T//ccgMc6LO.s]
         ignore line: [GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 2.43.1.20241119]
         ignore line: [COMPILER_PATH=/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../libexec/gcc/:/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/:/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_b4ef7.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_b4ef7.dir/Debug/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] : && /opt/homebrew/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -f Debug/libcmTC_b4ef7.a && /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-ar qc Debug/libcmTC_b4ef7.a  @CMakeFiles/cmTC_b4ef7.Debug.rsp && /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-gcc-ranlib Debug/libcmTC_b4ef7.a && /opt/homebrew/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch Debug/libcmTC_b4ef7.a && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_2e408.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_2e408.dir/Debug/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /opt/homebrew/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -f Debug/libcmTC_2e408.a && /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-ar qc Debug/libcmTC_2e408.a  @CMakeFiles/cmTC_2e408.Debug.rsp && /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-gcc-ranlib Debug/libcmTC_2e408.a && /opt/homebrew/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch Debug/libcmTC_2e408.a && :]
         ignore line: []
         ignore line: []
         implicit libs: []
@@ -263,8 +267,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/supratap/silabs-stash/matter_extension/ThreadRouterLightApp/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-nlk8Ny"
-      binary: "/Users/supratap/silabs-stash/matter_extension/ThreadRouterLightApp/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-nlk8Ny"
+      source: "/Users/supratap/silabs-stash/matter_extension/ThreadRouterLightApp/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-4sZtzK"
+      binary: "/Users/supratap/silabs-stash/matter_extension/ThreadRouterLightApp/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-4sZtzK"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -273,9 +277,9 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: /Users/supratap/silabs-stash/matter_extension/ThreadRouterLightApp/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-nlk8Ny
+        Change Dir: /Users/supratap/silabs-stash/matter_extension/ThreadRouterLightApp/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-4sZtzK
         
-        Run Build Command(s):/Users/supratap/.silabs/slt/installs/conan/p/ninja48deaaf744f20/p/ninja -v cmTC_46082 && [1/2] /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-g++ @CMakeFiles/cmTC_46082.dir/Debug/CMakeCXXCompilerABI.cpp.obj.rsp -o CMakeFiles/cmTC_46082.dir/Debug/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s):/Users/supratap/.silabs/slt/installs/conan/p/ninja48deaaf744f20/p/ninja -v cmTC_10648 && [1/2] /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-g++ @CMakeFiles/cmTC_10648.dir/Debug/CMakeCXXCompilerABI.cpp.obj.rsp -o CMakeFiles/cmTC_10648.dir/Debug/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-g++
         Target: arm-none-eabi
@@ -283,8 +287,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 
-        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_46082.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_46082.dir/Debug/'
-         /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1plus -quiet -v -iprefix /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../arm-none-eabi -D__USES_INITFINI__ -D CMAKE_INTDIR="Debug" /opt/homebrew/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_46082.dir/Debug/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -g -version -o /var/folders/4s/25shk8m10kgd1lz4j9_7hhgm0000gq/T//ccMXbA2q.s
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_10648.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_10648.dir/Debug/'
+         /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1plus -quiet -v -iprefix /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../arm-none-eabi -D__USES_INITFINI__ -D CMAKE_INTDIR="Debug" /opt/homebrew/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_10648.dir/Debug/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -g -version -o /var/folders/4s/25shk8m10kgd1lz4j9_7hhgm0000gq/T//ccCncwv1.s
         GNU C++17 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) version 14.2.1 20241119 (arm-none-eabi)
         	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -307,13 +311,13 @@ events:
          /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: 27b9f5562618372de894011fc251f42d
-        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_46082.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_46082.dir/Debug/'
-         /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_46082.dir/Debug/CMakeCXXCompilerABI.cpp.obj /var/folders/4s/25shk8m10kgd1lz4j9_7hhgm0000gq/T//ccMXbA2q.s
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_10648.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_10648.dir/Debug/'
+         /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_10648.dir/Debug/CMakeCXXCompilerABI.cpp.obj /var/folders/4s/25shk8m10kgd1lz4j9_7hhgm0000gq/T//ccCncwv1.s
         GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 2.43.1.20241119
         COMPILER_PATH=/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../libexec/gcc/:/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/:/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_46082.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_46082.dir/Debug/CMakeCXXCompilerABI.cpp.'
-        [2/2] : && /opt/homebrew/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -f Debug/libcmTC_46082.a && /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-ar qc Debug/libcmTC_46082.a  @CMakeFiles/cmTC_46082.Debug.rsp && /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-gcc-ranlib Debug/libcmTC_46082.a && /opt/homebrew/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch Debug/libcmTC_46082.a && :
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_10648.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_10648.dir/Debug/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /opt/homebrew/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -f Debug/libcmTC_10648.a && /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-ar qc Debug/libcmTC_10648.a  @CMakeFiles/cmTC_10648.Debug.rsp && /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-gcc-ranlib Debug/libcmTC_10648.a && /opt/homebrew/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch Debug/libcmTC_10648.a && :
         
       exitCode: 0
   -
@@ -351,9 +355,9 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(arm-none-eabi-gcc|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: /Users/supratap/silabs-stash/matter_extension/ThreadRouterLightApp/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-nlk8Ny]
+        ignore line: [Change Dir: /Users/supratap/silabs-stash/matter_extension/ThreadRouterLightApp/cmake_gcc/build/CMakeFiles/CMakeScratch/TryCompile-4sZtzK]
         ignore line: []
-        ignore line: [Run Build Command(s):/Users/supratap/.silabs/slt/installs/conan/p/ninja48deaaf744f20/p/ninja -v cmTC_46082 && [1/2] /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-g++ @CMakeFiles/cmTC_46082.dir/Debug/CMakeCXXCompilerABI.cpp.obj.rsp -o CMakeFiles/cmTC_46082.dir/Debug/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s):/Users/supratap/.silabs/slt/installs/conan/p/ninja48deaaf744f20/p/ninja -v cmTC_10648 && [1/2] /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-g++ @CMakeFiles/cmTC_10648.dir/Debug/CMakeCXXCompilerABI.cpp.obj.rsp -o CMakeFiles/cmTC_10648.dir/Debug/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-g++]
         ignore line: [Target: arm-none-eabi]
@@ -361,8 +365,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_46082.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_46082.dir/Debug/']
-        ignore line: [ /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1plus -quiet -v -iprefix /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../arm-none-eabi -D__USES_INITFINI__ -D CMAKE_INTDIR="Debug" /opt/homebrew/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_46082.dir/Debug/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -g -version -o /var/folders/4s/25shk8m10kgd1lz4j9_7hhgm0000gq/T//ccMXbA2q.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_10648.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_10648.dir/Debug/']
+        ignore line: [ /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1plus -quiet -v -iprefix /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../arm-none-eabi -D__USES_INITFINI__ -D CMAKE_INTDIR="Debug" /opt/homebrew/lib/python3.10/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_10648.dir/Debug/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -g -version -o /var/folders/4s/25shk8m10kgd1lz4j9_7hhgm0000gq/T//ccCncwv1.s]
         ignore line: [GNU C++17 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) version 14.2.1 20241119 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -385,13 +389,13 @@ events:
         ignore line: [ /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 27b9f5562618372de894011fc251f42d]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_46082.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_46082.dir/Debug/']
-        ignore line: [ /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_46082.dir/Debug/CMakeCXXCompilerABI.cpp.obj /var/folders/4s/25shk8m10kgd1lz4j9_7hhgm0000gq/T//ccMXbA2q.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_10648.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_10648.dir/Debug/']
+        ignore line: [ /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_10648.dir/Debug/CMakeCXXCompilerABI.cpp.obj /var/folders/4s/25shk8m10kgd1lz4j9_7hhgm0000gq/T//ccCncwv1.s]
         ignore line: [GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 2.43.1.20241119]
         ignore line: [COMPILER_PATH=/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../libexec/gcc/:/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/:/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_46082.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_46082.dir/Debug/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] : && /opt/homebrew/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -f Debug/libcmTC_46082.a && /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-ar qc Debug/libcmTC_46082.a  @CMakeFiles/cmTC_46082.Debug.rsp && /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-gcc-ranlib Debug/libcmTC_46082.a && /opt/homebrew/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch Debug/libcmTC_46082.a && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_10648.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_10648.dir/Debug/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /opt/homebrew/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -f Debug/libcmTC_10648.a && /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-ar qc Debug/libcmTC_10648.a  @CMakeFiles/cmTC_10648.Debug.rsp && /Users/supratap/.silabs/slt/installs/conan/p/gcc-a86af308f7c14b/p/bin/arm-none-eabi-gcc-ranlib Debug/libcmTC_10648.a && /opt/homebrew/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch Debug/libcmTC_10648.a && :]
         ignore line: []
         ignore line: []
         implicit libs: []
