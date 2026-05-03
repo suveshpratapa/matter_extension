@@ -5,11 +5,13 @@
     "requiredFeatureLevel": 109,
     "xmlRoot": [
         "./../../../../third_party/matter_sdk/src/app/zap-templates/zcl/.",
-        "./../../../../third_party/matter_sdk/src/app/zap-templates/zcl/data-model/chip"
+        "./../../../../third_party/matter_sdk/src/app/zap-templates/zcl/data-model/chip",
+        "./../../../../third_party/matter_sdk/src/app/zap-templates/zcl/data-model/apple"
     ],
     "_comment": "Ensure access-control-definitions.xml is first in xmlFile array",
     "xmlFile": [
         "access-control-definitions.xml",
+        "apple-device-information-cluster.xml",
         "chip-types.xml",
         "access-control-cluster.xml",
         "account-login-cluster.xml",

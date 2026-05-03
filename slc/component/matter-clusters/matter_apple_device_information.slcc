@@ -1,0 +1,19 @@
+category: Clusters|General
+description: >
+  Implementation of the Apple Device Information Server Cluster.
+  The user has to enable the Apple Device Information Server Cluster in the
+  ZCL Advanced Platform (ZAP) tool in order to enable this functionality.
+id: matter_apple_device_information
+package: matter
+label: Apple Device Information Server Cluster
+quality: production
+metadata:
+  sbom:
+    license: "Apache 2.0"
+provides:
+  - name: matter_apple_device_information
+source:
+  - path: third_party/matter_sdk/src/app/clusters/apple-device-information-server/apple-device-information-server.cpp
+template_contribution:
+  - name: component_catalog
+    value: matter_apple_device_information

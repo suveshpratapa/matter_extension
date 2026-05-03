@@ -26,6 +26,7 @@ component:
   - id: matter_ble
   - id: ot_stack_mtd
   - id: matter_thread
+  - id: matter_wed
   - id: rail_util_pti
   - id: matter_ota_support
   - id: matter_crypto
@@ -37,6 +38,7 @@ component:
 
   - id: matter_access_control
   - id: matter_administrator_commissioning
+  - id: matter_apple_device_information
   - id: matter_basic_information
   - id: matter_descriptor
   - id: matter_diagnostic_logs
@@ -111,6 +113,14 @@ source:
 define:
   - name: CHIP_CRYPTO_PLATFORM
     value: "1"
+  - name: OPENTHREAD_CONFIG_WAKEUP_END_DEVICE_ENABLE
+    value: "1"
+  - name: OPENTHREAD_CONFIG_MAC_CSL_RECEIVER_ENABLE
+    value: "1"
+  - name: OPENTHREAD_CONFIG_MAC_CSL_AUTO_SYNC_ENABLE
+    value: "1"
+  - name: OPENTHREAD_CONFIG_PLATFORM_USEC_TIMER_ENABLE
+    value: "1"
   - name: _WANT_REENT_SMALL
     value: "1"
   - name: IS_DEMO_LOCK
@@ -162,6 +172,9 @@ configuration:
     value: "0"
   - name: SL_ACTIVE_MODE_THRESHOLD
     value: "0"
+  # Use shorter CSL timeout for WED wake-up polling windows.
+  - name: SL_CSL_TIMEOUT
+    value: "20"
 
   - name: SL_TRANSPORT_IDLE_INTERVAL
     value: "5000"

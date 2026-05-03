@@ -18,6 +18,12 @@
     ]
   },
   {
+    "clusterCode": "apple device information-server",
+    "value": [
+      "%extension-matter%matter_apple_device_information"
+    ]
+  },
+  {
     "clusterCode": "administrator commissioning-server",
     "value": [
       "%extension-matter%matter_administrator_commissioning"
